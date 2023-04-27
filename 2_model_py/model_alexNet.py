@@ -68,9 +68,9 @@ saved_history = AlexNet.fit(image_train,class_train, validation_data = (image_te
 print("[+]Training Finished Successfully!!!\n")
 
 
-# Saving the Trained AlexNet Neighbour model
+# Saving the Trained AlexNet model
 
-print("\n[+]Saving the AlexNet Neighbour in AlexNet.json and weight in AlexNet.h5...")
+print("\n[+]Saving the AlexNet in AlexNet.json and weight in AlexNet.h5...")
 AlexNet_json = AlexNet.to_json()
 with open("5_models\\AlexNet.json", "w+") as json_file:
     json_file.write(AlexNet_json)

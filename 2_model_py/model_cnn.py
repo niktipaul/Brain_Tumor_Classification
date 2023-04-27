@@ -57,7 +57,7 @@ print("[+]Training Finished Successfully!!!\n")
  
 # Saving the Trained CNN Neighbour model
 
-print("\n[+]Saving the CNN Neighbour in cnn.json and weight in cnn.h5...")
+print("\n[+]Saving the CNN in cnn.json and weight in cnn.h5...")
 cnn_json = cnn.to_json()
 with open("5_models\\cnn.json", "w+") as json_file:
     json_file.write(cnn_json)

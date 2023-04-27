@@ -1,0 +1,1 @@
+This folder contains the statistical details like Accuracy, Precision, Recall and F1 Score.

@@ -55,9 +55,9 @@ saved_history = leNet.fit(image_train,class_train, validation_data = (image_test
 print("[+]Training Finished Successfully!!!\n")
 
 
-# Saving the Trained leNet Neighbour model
+# Saving the Trained leNet model
 
-print("\n[+]Saving the leNet Neighbour in leNet.json and weight in leNet.h5...")
+print("\n[+]Saving the leNet in leNet.json and weight in leNet.h5...")
 leNet_json = leNet.to_json()
 with open("5_models\\leNet.json", "w+") as json_file:
     json_file.write(leNet_json)

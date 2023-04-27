@@ -74,9 +74,9 @@ saved_history = vgg19.fit(image_train,class_train, validation_data = (image_test
 print("[+]Training Finished Successfully!!!\n")
 
 
-# Saving the Trained vgg19 Neighbour model
+# Saving the Trained vgg19s model
 
-print("\n[+]Saving the vgg19 Neighbour in vgg19.json and weight in vgg19.h5...")
+print("\n[+]Saving the vgg19 in vgg19.json and weight in vgg19.h5...")
 vgg19_json = vgg19.to_json()
 with open("5_models\\vgg19.json", "w+") as json_file:
     json_file.write(vgg19_json)

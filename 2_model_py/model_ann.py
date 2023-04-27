@@ -51,7 +51,7 @@ print("[+]Training Finished Successfully!!!\n")
 
 # Saving the Trained ANN  model
 
-print("\n[+]Saving the ANN Neighbour in ann.json and weight in ann.h5...")
+print("\n[+]Saving the ANN  in ann.json and weight in ann.h5...")
 ann_json = ann.to_json()
 with open("5_models\\ann.json", "w+") as json_file:
     json_file.write(ann_json)
