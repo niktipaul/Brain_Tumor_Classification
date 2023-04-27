@@ -1,15 +1,15 @@
 # Brain_Tumor_Classification
 
 The file contains 8 folders:
-1_data_py
-2_model_py
-3_testing
+1_data_py,
+2_model_py,
+3_testing,
 
-4_data
-5_models
-6_confusion_matrix
-7_saved_curves
-8_statistics
+4_data,
+5_models,
+6_confusion_matrix,
+7_saved_curves,
+8_statistics,
 
 1. "1_data_py" folder contains 3 python files: 
   a) dataset_pth.py  : Which contains the path and name of dataset
